@@ -82,7 +82,7 @@ module Fastlane
                                       env_name: "SENTRY_APP_IDENTIFIER",
                                       description: "App Bundle Identifier",
                                       optional: true,
-                                      default_value: CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier))
+                                      )
 
         ]
       end
